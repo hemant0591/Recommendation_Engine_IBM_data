@@ -6,7 +6,7 @@ Using the data provided by IBM, I have try to recommend new articles to users.
 For this project I have analyzed the interactions that users have with articles on the IBM Watson Studio platform, and made
 recommendations to them about new articles the program thinks they will like.
   
-## Sections
+# Sections
   
 # I. Exploratory Data Analysis
 
