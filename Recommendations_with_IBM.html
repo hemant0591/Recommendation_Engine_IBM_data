@@ -15728,7 +15728,8 @@ As there is no existing data for new user, we can't use user based recommendatio
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Provide your response here.</strong></p>
+<p><strong>Provide your response here.</strong>
+Here we can use SVD because we have all the data points, if data were missing we would have used FunkSVD</p>
 
 </div>
 </div>
@@ -16203,7 +16204,7 @@ As there is no existing data for new user, we can't use user based recommendatio
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Your response here.</strong>
 As we increase the number of latent features the accuracy seems to be improving on the training data, but we might be overfitting as the accuracy on the test data is decreasing. We could randomly divide training data into train and validation set to improve the test accuracy.</p>
-<p>We could also set up a A/B test to check the performance of our recommendar system, where people will be divided in to control and experiment group using cookie based diversion. The null hypothesis says the new recommendations are equal or potentially worse than the existing recommendation system and alternate</p>
+<p>We could also set up a A/B test to check the performance of our recommendar system, where people will be divided in to control and experiment group using cookie based diversion. The null hypothesis says the new recommendations are equal or potentially worse than the existing recommendation system, we can then calculate the p value to check whether we can reject the null hypotheis.</p>
 
 </div>
 </div>
