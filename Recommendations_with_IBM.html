@@ -16201,7 +16201,9 @@ As there is no existing data for new user, we can't use user based recommendatio
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Your response here.</strong></p>
+<p><strong>Your response here.</strong>
+As we increase the number of latent features the accuracy seems to be improving on the training data, but we might be overfitting as the accuracy on the test data is decreasing. We could randomly divide training data into train and validation set to improve the test accuracy.</p>
+<p>We could also set up a A/B test to check the performance of our recommendar system, where people will be divided in to control and experiment group using cookie based diversion. The null hypothesis says the new recommendations are equal or potentially worse than the existing recommendation system and alternate</p>
 
 </div>
 </div>
@@ -16224,7 +16226,7 @@ As there is no existing data for new user, we can't use user based recommendatio
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">call</span>
@@ -16232,6 +16234,26 @@ As there is no existing data for new user, we can't use user based recommendatio
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[1]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
