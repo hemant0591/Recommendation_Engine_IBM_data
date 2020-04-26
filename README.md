@@ -14,7 +14,7 @@ recommendations to them about new articles the program thinks they will like.
 
 # III. User-User Based Collaborative Filtering
 
-# IV. Matrix Factorization
+# V. Matrix Factorization
   
 Please go throught the code to see the details of what is being done in each section.
   
